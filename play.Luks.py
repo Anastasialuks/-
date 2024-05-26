@@ -133,7 +133,7 @@ def main():
     while True: # начинаем игру
         runTetris()
         pauseScreen()
-        showText('Игра закончена')
+        showText('GAME OVER')
 
 
 def runTetris():
@@ -389,7 +389,7 @@ def gamecup(cup):
             drawBlock(x, y, cup[x][y])
 
 def drawTitle():
-    titleSurf = big_font.render('Тетрис Lite', True, title_color)
+    titleSurf = big_font.render('TETRIS', True, title_color)
     titleRect = titleSurf.get_rect()
     titleRect.topleft = (window_w - 425, 30)
     display_surf.blit(titleSurf, titleRect)
@@ -407,7 +407,7 @@ def drawInfo(points, level):
     levelRect.topleft = (window_w - 550, 250)
     display_surf.blit(levelSurf, levelRect)
 
-    pausebSurf = basic_font.render('Пауза: пробел', True, info_color)
+    pausebSurf = basic_font.render('Пауза:  Пробел', True, info_color)
     pausebRect = pausebSurf.get_rect()
     pausebRect.topleft = (window_w - 550, 420)
     display_surf.blit(pausebSurf, pausebRect)
