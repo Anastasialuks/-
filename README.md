@@ -1,5 +1,15 @@
-# Welcome to GitHub Desktop!
+Проект - тетрис.
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
+Целью проекта было создать игру тетрис.
 
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+В пректе было реализованы следующие шаги:
+
+1. Генерация случайных фигур (случайного цвета).
+
+2. Отрисовка игрового поля определенного размера и цвета.
+
+3. Отображение уровня, баллов, кнопки паузы и выхода.
+
+4. Отображение следующей появляющиеся фигуры.
+
+В проекте использовались внутренние библиотеки sys, time, random, а также внешнюю pygame.
